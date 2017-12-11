@@ -1,0 +1,191 @@
+body {
+    background:  linear-gradient(#cb1acdcf, #f890cdde);
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+.linkparrafo{
+    text-decoration: none;
+}
+
+.gatitologo{
+    width: 10.3em;
+    border-radius: 40px;
+}
+.eform {
+    display: none;
+}
+/*cabecera */
+.enavgeneral{
+    background-image: url(logos/fondocabeza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8em;
+    z-index: 999;
+}
+.edivgrande{
+    width: 100%;
+    text-align: right;
+}
+.edivnavbar{
+    align-items: center;
+}
+.elinavbar{
+    flex-grow: 1;
+    right: 0;
+}
+.etitulo{
+    display: flex;
+    flex-grow: 4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.etitulohijo{
+    left: 0;
+    text-align: center;
+    font-size: 3.3em;
+    padding: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 25%;
+}
+
+.img{
+    width: 5em; 
+    border-radius: 45%;
+}
+.imgfb{
+    width: 7.3em;
+    border-radius: 45%;
+}
+.imgfb:hover {
+    width: 10.3em;
+}
+.img:hover {
+    width: 7em;
+}
+/* Fin cabecera */
+/*cualdo es mas chico que 1000px de resolucion */
+
+
+
+/* header */
+.eheader{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    background-image: url(trigo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    font-size: 3.2em;
+    color: #FFF;
+}
+/* Fin header*/
+
+
+/* Boton voler */
+.boton-padre{
+    width: 100%;
+}
+
+.boton-subir{
+    left: 0;
+    margin-right: 10px;
+    margin-left: 70%;
+    width: 3.4em;
+    border: 5px;
+    border-color: #101010;
+    border-style: solid;
+    border-radius: 15px;
+    color:white;
+    text-decoration: none;
+}
+
+/*Fin boton volver */
+
+/* Copyright */
+.copyright{
+    border-top: 3px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 3px;
+    border-color: rgva(162 160 156 0.4);
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    background-color: #ad9465;
+    width: 100%;
+    margin-top:20px;
+}
+.pcopyright{
+    color: antiquewhite;
+    font-style: italic;
+    font-weight: 150;
+    font-size: 2em;
+    text-align: center;
+    margin: 1em;
+}
+
+/* Fin copyright*/
+
+
+
+/* Resoluciones para modelos de pantallas más pequeñas */
+
+@media ( max-width:1200px){
+    
+    .enavgeneral{
+        height: 6.5em;
+    }
+    
+    .gatitologo{
+        width: 8.3em;
+    }
+    
+    .imgfb{
+        width: 5.7em;
+    }
+    
+    .imgfb:hover{
+        width: 8.7em;
+    }
+    
+    .img{
+        width: 4em;
+    }
+    
+    .img:hover{
+        width: 6em;
+    }
+    
+    
+    .etitulohijo{
+        font-size: 2.7em;
+    }
+
+    .pcopyright{
+    color: antiquewhite;
+    font-style: italic;
+    font-weight: 150em;
+    font-size: 2em;
+    text-align: center;
+    margin: 0.6em;
+    }
+     
+}

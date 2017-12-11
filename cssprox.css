@@ -1,0 +1,59 @@
+body{
+    background-image: url(gatitozorry.jpg);
+    background-repeat:repeat;
+    background-size: contain;
+}
+
+
+.linkparrafo{
+    text-decoration: none;
+}
+
+div{
+    
+}
+h1{
+
+}
+.volerpadre{
+   margin-top: 50px;
+    height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.volverhijo{
+   flex-grow: 5;
+   font-size: 5em;
+   text-align: center;   
+   color: black;
+   font-weight: 500;
+   margin: 20px;
+    border: 6px;
+    border-color: #dea72a;
+    border-style: groove;
+    background-color: white;
+}
+
+.volvercaja{
+    color: black;
+    margin: 10px;
+    border: 6px;
+    border-color: #dea72a;
+    border-style: solid;
+    flex-grow: 3;
+   font-size: 3em;
+    background-color: white;
+}
+.volverhijo:hover {
+    border-radius: 18px;
+    color: #b5b2ad;
+    background-color: black;
+}
+.volvercaja:hover {
+    border-radius: 18px;
+    background-color: #d9d4de;
+    font-size: 4em;
+    color:#a13706;
+}

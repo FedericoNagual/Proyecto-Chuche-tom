@@ -1,0 +1,64 @@
+body {
+    background-color: whitesmoke;
+    height: 2000px;
+}
+.casitalogo{
+    width: 4.3em;
+}
+.eform {
+    display: none;
+}
+/*cabecera */
+.enavgeneral{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.edivgrande{
+    width: 100%;
+    text-align: right;
+}
+.edivnavbar{
+    justify-content: flex-end;
+    display: inline-flex;
+}
+.elinavbar{
+    flex-grow: 2;
+    right: 0;
+}
+/* Fin cabecera */
+/* header */
+.eheader{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    background-image: url(trigo.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    font-size: 3.2em;
+    color: #FFF;
+}
+/* Fin header*/
+/* Carrusel*/
+.ecarousel{    
+    margin: 5em;
+    border: 15px solid green;
+    border-radius: 18px;
+    position: inherit;
+}
+.ed-block{
+    display: flex;
+    position: inherit;
+}
+
+/*Fin carrusel*/
